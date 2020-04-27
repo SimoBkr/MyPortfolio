@@ -60,10 +60,14 @@ section .heading h2{
 }
 
 
-/* ABOUT */
-#about{
+/* Home */
+#home{
     padding-top: 50px;
     background: #d82c2e;
+    background-image: url(../images/backk.jpg);
+    background-size:     cover;                      /* <------ */
+    background-repeat:   no-repeat;
+    background-position: center center;
 }
 
 .profile-picture{
@@ -71,12 +75,12 @@ section .heading h2{
     margin: 0 auto;
     float: none;
 }
-#about .heading h1{
+#home .heading h1{
     color: #fff;
     text-transform: uppercase;
     margin-top: 20px;
 }
-#about .heading h3{
+#home .heading h3{
     color: #000;
 }
 .button1{
@@ -120,7 +124,7 @@ section .heading h2{
 
 /* EXPERIENCE */
 #experience{
-    background: #d82c2e;
+    background: #7DA2A9    ;
 }
 #experience .heading h2{
     color: #fff;
@@ -214,7 +218,10 @@ section .heading h2{
 
 /* EDUCATION */
 #education{
-    background: #fff;
+    background-image: url(../images/EducationPicture.jpg);
+    background-size:     cover;                      /* <------ */
+    background-repeat:   no-repeat;
+    background-position: center center;
 }
 #education .heading h2{
     color: #d82c2e;
@@ -252,24 +259,24 @@ section .heading h2{
 }
 
 
-/* PORTFOLIO */
-#portfolio{
+/* WORK */
+#work{
     background: #d82c2e;
 }
-#portfolio .heading h2{
+#work .heading h2{
     color: #fff;
 }
-#portfolio img{
+#work img{
     width: 100%;
     height: 100%;
     filter: grayscale(100%);
     -webkit-filter: grayscale(100%); 
 }
-#portfolio img:hover{
+#work img:hover{
      filter: none;
     -webkit-filter: none; 
 }
-#portfolio .col-md-4{
+#work .col-md-4{
     margin-bottom: 20px;
 }
 
