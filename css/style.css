@@ -1,4 +1,4 @@
-/* GENERAL */
+/* Partie GENERAL */
 body{
     font-family: 'Lato', sans-serif;
 }
@@ -37,7 +37,7 @@ section .heading h2{
 }
 
 
-/* MENU */
+/* Partie MENU */
 .navbar {
     background-color: #d82c2e;
     font-size: 12px;
@@ -60,7 +60,7 @@ section .heading h2{
 }
 
 
-/* Home */
+/* partie Home */
 #home{
     padding-top: 50px;
     background: #d82c2e;
@@ -100,7 +100,7 @@ section .heading h2{
     text-decoration: none;
 }
 
-/* SKILLS */
+/* partie Skkiils */
 #skills{
     background: #fff;
 }
@@ -259,7 +259,7 @@ section .heading h2{
 }
 
 
-/* WORK */
+/* Partie WORK */
 #work{
     background: #d82c2e;
 }
@@ -281,7 +281,7 @@ section .heading h2{
 }
 
 
-/* RECOMMANDATIONS */
+/* Partie RECOMMANDATIONS */
 #recommandations{
     background: #fff;
 }
@@ -313,7 +313,7 @@ section .heading h2{
 }
 
 
-/* FOOTER */
+/* Partie FOOTER */
 footer{
     background: #333;
     padding: 20px 0 40px;
